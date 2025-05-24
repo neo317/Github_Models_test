@@ -5,7 +5,7 @@ messages:
       Give me easy but informative information when I ask you about USA history
   - role: user
     content: 'I wonder about {{input}}'
-model: openai/gpt-4o
+model: openai/gpt-4.1-nano
 modelParameters:
   max_tokens: 4096
   temperature: 0
