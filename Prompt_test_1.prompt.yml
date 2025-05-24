@@ -10,3 +10,7 @@ modelParameters:
   max_tokens: 4096
   temperature: 0
   top_p: 1
+testData:
+  - input: What is it
+    expected: ''
+evaluators: []
