@@ -1,4 +1,4 @@
-name: Summarize GitHub Issue
+name: Summarize GitHub Issue IN neo
 
 on:
   issues:
