@@ -1,0 +1,16 @@
+# summarize.prompt.yml
+# GitHub 이슈, 문서 등을 요약하는 프롬프트
+messages:
+  - role: system
+    content: >-
+      You are a concise summarizer. Extract the most important points and provide a brief, clear summary.
+  - role: user
+    content: 'Please summarize the following text: {{input}}' # {{input}}은 외부에서 주입될 텍스트입니다.
+model: gpt-4.1-nano # 사용할 모델 (사용 가능한 모델은 gh models list로 확인)
+modelParameters:
+  max_tokens: 500 # 생성될 요약의 최대 토큰 수
+  temperature: 0 # 창의성 조절 (0.0은 보수적, 1.0은 창의적)
+testData:
+  - input: What is it
+    expected: ''
+evaluators: []

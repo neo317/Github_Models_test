@@ -1,0 +1,1 @@
+"This is a very long and detailed technical document discussing the new features in GitHub Copilot, including its improved code generation capabilities and integration with various IDEs. It also touches upon the ethical considerations of AI in programming." 
